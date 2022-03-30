@@ -22,6 +22,7 @@ public class MainClass {
         E1.profundidade = 1.5;
         E1.capacidade = 5;
         E1.impDados();
+        System.out.println("Selecione o andar");
         E1.funcao();
         System.out.println(" ");
         Cadeira C1 = new Cadeira();
@@ -34,7 +35,7 @@ public class MainClass {
         System.out.println(" ");
         Aluno A1 = new Aluno();
         A1.nome = "Paulo Sergio";
-        A1.sobrenome = "Oliveira";
+        A1.sobrenome= "Oliveira";
         A1.curso = "Informática";
         A1.idade = 16;
         A1.impDados();
