@@ -1,27 +1,27 @@
 public class Pessoa {
     private String nome;
-    private float rg;
-    private float cpf;
+    private int rg;
+    private int cpf;
     private int idade;
     private String sexo;
     private String escivil;
     private String endereço;
-    private float telefone;
-    private float tieleitor;
+    private int telefone;
+    private int tieleitor;
 
     public String getNome() {
         return nome;
     }
-    public float getTieleitor() {
+    public int getTieleitor() {
         return tieleitor;
     }
-    public float getCpf() {
+    public int getCpf() {
         return cpf;
     }
-    public float getRg() {
+    public int getRg() {
         return rg;
     }
-    public float getTelefone() {
+    public int getTelefone() {
         return telefone;
     }
     public String getEndereço() {
@@ -36,10 +36,10 @@ public class Pessoa {
     public int getIdade() {
         return idade;
     }
-    public void setTieleitor(float tieleitor) {
+    public void setTieleitor(int tieleitor) {
         this.tieleitor = tieleitor;
     }
-    public void setTelefone(float telefone) {
+    public void setTelefone(int telefone) {
         this.telefone = telefone;
     }
     public void setEndereço(String endereço) {
@@ -54,13 +54,13 @@ public class Pessoa {
     public void setIdade(int idade) {
         this.idade = idade;
     }
-    public void setRg(float rg) {
+    public void setRg(int rg) {
         this.rg = rg;
     }
     public void setNome(String nome) {
         this.nome = nome;
     }
-    public void setCpf(float cpf) {
+    public void setCpf(int cpf) {
         this.cpf = cpf;
     }
 }
