@@ -11,10 +11,6 @@ public class Pessoa {
     private String telefone;
     private int tieleitor;
 
-    public Pessoa(){
-
-    }
-
     public Pessoa(String nome, String rg, String cpf, int idade, String sexo, String escivil, String endereço,
             String telefone, int tieleitor) {
         this.nome = nome;
@@ -27,35 +23,11 @@ public class Pessoa {
         this.telefone = telefone;
         this.tieleitor = tieleitor;
     }
-    public String getNome() {
-        return nome;
-    }
-    public int getTieleitor() {
-        return tieleitor;
-    }
-    public String getCpf() {
-        return cpf;
-    }
-    public String getRg() {
-        return rg;
-    }
-    public String getTelefone() {
-        return telefone;
-    }
-    public String getEndereço() {
-        return endereço;
-    }
-    public String getEscivil() {
-        return escivil;
-    }
-    public String getSexo() {
-        return sexo;
-    }
-    public int getIdade() {
-        return idade;
-    }
     public void impDados(){
-        JOptionPane.showMessageDialog(null, "Pessoa [cpf=" + cpf + ", endereço=" + endereço + ", escivil=" + escivil + ", idade=" + idade + ", nome="
-        + nome + ", rg=" + rg + ", sexo=" + sexo + ", telefone=" + telefone + ", tieleitor=" + tieleitor + "]", "Resposta", 1);
+        JOptionPane.showMessageDialog(null," Nome: " + nome + "\n Idade: " + idade + " \n CPF: "
+         + cpf + "\n RG: " + rg + "\n Endereço: " + endereço + "\n Estado Civil: " + escivil + 
+         "\n Sexo: " + sexo + "\n Telefone: " + telefone + "\n Título de Eleitor: " 
+         + tieleitor, "Resposta", 1);
     }
 }
+// Paulo Sergio Vieira de Oliveira
